@@ -15,3 +15,5 @@ Created isomorphic application using react, node and express js, for learning pu
 * Instead of using *Route* from *react-router-dom*, create a cofiguration file and pass it to *renderRoutes* method from *react-router-config*
 * **npm-run-all** lets you run multiple npm scripts at once
 * Use *react-helmet* for dynamically inserting meta tags
+* Create two separate *webpack* configurations one for server and another for client
+* Every page level component should return component and data to be loaded, so that data can be preloaded from server side, on every page level server request.
